@@ -10,19 +10,28 @@ function NavBar() {
       name: "HOME",
       icon: HiHome
     },
+
     {
       name: "SEARCH",
       icon: HiMagnifyingGlass
-    }, {
+    },
+
+    {
       name: "WATCHLIST",
       icon: HiPlus
-    }, {
+    }, 
+
+    {
       name: "ORIGINALS",
       icon: HiStar
-    }, {
+    }, 
+
+    {
       name: "MOVIES",
       icon: HiPlayCircle
-    }, {
+    }, 
+    
+    {
       name: "SERIES",
       icon: HiTv
     }
@@ -38,7 +47,7 @@ function NavBar() {
             <NavBarItems name={item.name} Icon={item.icon} />
           ))}
         </div>
-        <div className='flex md:hidden gap-5'>
+        <div className='flex md:hidden gap-2'>
           {menu.map((item, index) => index < 3 && (
             <NavBarItems name={''} Icon={item.icon} />
           ))}
