@@ -1,9 +1,7 @@
-import { useState } from 'react'
 import './App.css'
 import NavBar from './components/NavBar'
-import NavBarItems from './components/NavBarItems'
 import Slider from './components/Slider'
-import ProductionHouse from './components/productionHouse'
+import ProductionHouse from "./components/ProductionHouse"
 import GenereMovieList from './components/GenereMovieList'
 
 
