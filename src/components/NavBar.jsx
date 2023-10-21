@@ -40,7 +40,7 @@ function NavBar() {
   return (
     <div className=' flex items-center justify-between p-5'>
       <div className=' flex items-center gap-8'>
-        <img src="src/assets/watchyshows-removebg-preview.png" className=' w-[115px] md:w-[130px] lg:w-[150px] object-cover' alt="" />
+        <img src="https://res.cloudinary.com/dqydgc2ky/image/upload/v1697866497/watchyshows-removebg-preview_re4yr6.png" className=' w-[115px] md:w-[130px] lg:w-[150px] object-cover' alt="" />
 
         <div className='hidden md:flex gap-8'>
           {menu.map((item) => (
@@ -62,7 +62,7 @@ function NavBar() {
           </div>
         </div>
       </div>
-      <img src="src/assets/profile.png" className=' w-[40px] rounded-full' alt="" />
+      <img src="https://res.cloudinary.com/dqydgc2ky/image/upload/v1697866631/profile_ipshxm.png" className=' w-[40px] rounded-full' alt="" />
     </div>
 
   )
